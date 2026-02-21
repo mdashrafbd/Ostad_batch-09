@@ -12,7 +12,7 @@ A complete Todo web application built with Django, featuring a modern UI with Ta
 - ✅ AJAX toggle completion without page reload
 - ✅ Beautiful, responsive UI with Tailwind CSS
 - ✅ Django messages framework for user feedback
-
+- ✅ Deployed as public site using RENDER.
 ## Tech Stack
 
 - **Backend**: Python + Django
@@ -26,7 +26,8 @@ A complete Todo web application built with Django, featuring a modern UI with Ta
 
 - Python 3.8 or higher
 - pip (Python package manager)
-
+- gunicorn 
+- Django
 ### Installation
 
 1. **Clone or navigate to the project directory:**
@@ -43,6 +44,7 @@ A complete Todo web application built with Django, featuring a modern UI with Ta
 3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
+   pip install gunicorn
    ```
 
 4. **Run migrations:**
@@ -64,9 +66,8 @@ A complete Todo web application built with Django, featuring a modern UI with Ta
    ```
    http://127.0.0.1:8000/
    ```
-
-## Project Structure
-
+8. **Open your browser and navigate to public site:**                                           ```                                                                                           https://todo-ashraf.onrender.com/                                                              ```                          
+## Project Structur
 ```
 todo_project/
 ├── manage.py
@@ -123,7 +124,12 @@ Access the Django admin panel at `http://127.0.0.1:8000/admin/` (requires superu
 python manage.py test
 ```
 
-## Development
+## Deployment
+- Signup and login to RENDER website
+- Deploy as web service using git 
+- Configure setting 
+- Deploy app 
+-Run the app using public URL
 
 ### Making Changes
 
