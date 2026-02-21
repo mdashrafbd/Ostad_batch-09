@@ -31,7 +31,7 @@ ALLOWED_HOSTS = [
     'subclimatic-sherri-nonprovocatively.ngrok-free.dev',
     '.ngrok-free.dev',  # Allow all ngrok-free.dev subdomains
     '.ngrok.io',  # Allow all ngrok.io subdomains (for paid ngrok)
-    'testtttttt-kf9v.onrender.com'
+    'testtttttt-kf9v.onrender.com',
     'todo-ashraf.onrender.com'
 ]
 
